@@ -27,7 +27,7 @@ class NumberGuessingGame {
                         "Enter your guess (attempt " + (attempts + 1) + "): ");
 
                 if (guessString == null) {
-                    // User closed the dialog, treat it as exiting the game
+                   
                     playAgain = false;
                     break;
                 }
